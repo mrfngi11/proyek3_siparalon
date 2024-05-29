@@ -15,6 +15,26 @@
                             <input type="text" class="form-control" id="exampleInputEmail1" name="name" aria-describedby="emailHelp">
                             
                         </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Jabatan</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="jabatan" aria-describedby="emailHelp">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Jenis Kelamin</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="jenis_kelamin" aria-describedby="emailHelp">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">No Handphone</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="no_hp" aria-describedby="emailHelp">
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Alamat</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" name="alamat" aria-describedby="emailHelp">
+                            
+                        </div>
                         <div class="form-group mt-2">
                             <label for="exampleInputEmail1">Email</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">

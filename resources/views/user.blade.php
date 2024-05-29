@@ -13,6 +13,10 @@
                     <thead>
                         <tr>
                             <th>Nama</th>
+                            <th>Jabatan</th>
+                            <th>Jenis Kelamin</th>
+                            <th>No Handphone</th>
+                            <th>Alamat</th>
                             <th>Email</th>
                         </tr>
                     </thead>
@@ -20,6 +24,10 @@
                         @foreach($users as $item)
                         <tr>
                             <td>{{$item->name}}</td>
+                            <td>{{$item->jabatan}}</td>
+                            <td>{{$item->jenis_kelamin}}</td>
+                            <td>{{$item->no_hp}}</td>
+                            <td>{{$item->alamat}}</td>
                             <td>{{$item->email}}</td>
                         </tr>
                         @endforeach
